@@ -1,5 +1,9 @@
 package com.simranb.employeesystem.service;
 
-public interface EmployeeService {
+import com.simranb.employeesystem.model.Employee;
+import java.util.List;
 
+public interface EmployeeService {
+    public Employee saveEmployee(Employee employee);
+    public List<Employee> getAllEmployees();
 }
